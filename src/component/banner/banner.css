@@ -1,0 +1,141 @@
+
+
+.banner-section button{
+    /* margin-left: 55px; */
+    margin-top:34px;
+    font-size: 23px;
+}
+
+.banner-section h1{
+    margin-top: 0;
+    font-size: 36px;
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color:cadetblue
+}
+.banner-section h3{
+    margin: 0 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+    font-size: 26px
+    ;
+}
+.banner-section p{
+    font-size:21px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.enq button {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #7202bb;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+
+border: 2px solid black;
+}
+.enq button:hover{
+    background: lemonchiffon;
+    border: black;
+    color: black;
+    border: 2px solid black;
+
+}
+
+.form-control:focus{
+    border-color: #7202bb;
+}
+.btn.border-radius{
+    border-radius: 4px;
+}
+.login-signup-form .form-group{
+    position: relative;
+}
+.login-signup-form .form-group label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 144%;
+}
+
+.login-signup-form .form-group .input-group.input-group-merge>.form-control{
+    text-indent: 35px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: calc(2.65em + .75rem + 2px);
+}
+.login-signup-form .form-group .input-group.input-group-merge>textarea.form-control{
+    height: calc(7.8rem + 2px);
+}
+.login-signup-form .form-group .input-group.input-group-merge>.form-control:focus{
+    z-index: inherit;
+}
+
+.input-icon {
+    height: calc(3.4rem + 2px);
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.input-icon span{
+    color: #b1b1b1;
+    padding: 18px 15px;
+    position: absolute;
+    font-size: 18px;
+    height: calc(3.4rem + 2px);
+    border-radius: 4px;
+}
+.textarea-icon span{
+    height: calc(7.8rem + 2px);
+}
+
+
+.full-screen{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-wrap h2, .countdown-wrap h5{
+    color: #fff !important;
+}
+
+.btn.border-radius{
+    border-radius: 4px;
+}
+.solid-btn{
+    color: #fff;
+    -webkit-box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
+    box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
+    background: #7202bb;
+    border: 2px solid #7202bb;
+    border-radius: 30px;
+}
+
+.solid-btn:hover{
+    background: transparent;
+    color: #7202bb;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.hero-img-right{
+    background-color:#f7f7f7;
+}
+input .cc{
+    font-size: 13px;
+}

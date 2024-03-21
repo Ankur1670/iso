@@ -1,0 +1,11 @@
+#download{
+    background: linear-gradient(to left, #289086, #4a54e8, #5b42db, #289086, #289086) ;
+
+}
+.price-img img{
+    width: 500px;
+
+}
+.solid-white-btn:hover{
+border-color: #5b42db;
+}

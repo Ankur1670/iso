@@ -1,0 +1,27 @@
+.container .navbar-brand{
+    font-size: 45px;
+}
+.navbar{
+    background: linear-gradient(to left, #289086, #4a54e8, #5b42db, #289086, #289086) ;
+}
+.container ul{
+    margin:auto ;
+}
+.container ul li{
+    padding-left: 45px;
+}
+.container ul li a{
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 20px 12px;
+    display: block;
+    transition: all 0.3s ease-in-out 0s;
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 600;
+}
+.container ul li a:hover{
+    color:darkorange;
+}

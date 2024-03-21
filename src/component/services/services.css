@@ -1,0 +1,237 @@
+.display_panel {
+	display: table;
+}
+
+.tab_panel {
+    /*background: #053d92;*/
+	padding: 50px 35px 40px 50px;
+	/*border-right: 1px solid #fff;*/
+}
+
+.tab_panel,
+.our_client {
+	display: table-cell;
+	float: none;
+}
+
+.tab_panel ul {
+	display: inline-block;
+	float: left;
+	width: 33%;
+}
+
+.tab_panel ul li {
+	display: block;
+	float: none; padding: 3px;
+    border: 1px solid #FFFFFF;
+    background-color: #0053d1;
+}
+
+.tab_panel .tab-content {
+    display: inline-block;
+	width: 66%;
+	padding: 20px 20px 10px;
+	background: #fcff5b7a;
+	border-radius: 0px 8px 8px 0;
+	min-height: 410px;
+	text-align: center;
+}
+
+.tab_panel .tab_inner {
+	display: inline-block;
+	width: 100%;
+}
+
+.tab_panel .tab-content .tab-pane h3 {
+	font-size: 17px;
+	color: #2b2b2b;
+	margin: 0 0 12px;
+}
+
+.tab_panel .tab-content .tab-pane h4 {
+	font-size: 15px;
+	color: #053d92;
+	margin: 0 0 12px;
+	font-weight: 800;
+} 
+
+.tab_panel .tab-content .tab-pane p {
+	font-size: 15px;
+	color: #595959;
+	font-family: arial;
+	text-align: left;
+}
+
+.tab_panel .nav-pills li {
+	margin: 0;
+}
+
+.tab_panel .nav-pills li a {
+	background: #0053d1;
+	border-radius: 0;
+	color: #fff;
+	font-size: 15px;
+	/*border-bottom: 1px solid #5b8fc4;*/
+	transition: all 0.5s ease;
+}
+
+.tab_panel h2,
+.our_client h4 {
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 34px;
+	text-align: center;
+}
+
+.tab_panel .nav-pills li:last-child a  {
+	border-bottom: 0;
+}
+
+.tab_panel .nav-pills li.active a:focus, 
+.tab_panel .nav-pills li.active a:hover,
+.tab_panel .nav-pills li a:hover,
+.tab_panel .nav-pills li.active a {
+	background: #6db017 !important;
+	border-color: transparent !important; padding:4px
+}
+
+.middle_part {
+	padding: 0;
+	margin: 0px 0 30px;
+}
+
+.certified {
+	text-align: center;
+}
+
+.certified h4,
+.features h4 {
+	font-size: 36px;
+	color: #000;
+	font-weight: 800;
+	margin: 0 0 0;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	text-align: center;
+}
+
+.certified h4 span {
+	color: #0a58a7;
+	font-weight: 300;
+}
+
+.certified p {
+	font-size: 15px;
+	color: #888888;
+	margin: 20px 0 30px;
+}
+
+.features ul {
+	margin: 15px 0 0;
+}
+
+.features ul li {
+	display: inline-block;
+	width: 16.5%;
+	background: #6db017;
+	margin-left: -2px;
+}
+
+.features ul li h2 {
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+}
+
+.features ul li h3 {
+	font-size: 36px;
+	color: #fff;
+	margin: 10px 0 0;
+}
+
+.features ul li h3 span {
+	font-size: 17px;
+	display: block;
+}
+
+
+.features ul li .inner_part {
+    padding: 20px 18px 14px;
+}
+
+.features ul li p {
+	background: #686868;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.footer_part {
+	padding: 45px 0;
+	margin-top: 0px;
+}
+
+.choosing {
+    text-align: center;
+}
+
+.choosing h3 {
+	font-size: 29px;
+	color: #606060;
+	margin: 0 52px 0 0;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.choosing h3 span {
+    display: block;
+    text-align: left;
+    color: #84b211;
+    font-weight: 800;
+}
+
+.choosing ul {
+	margin: 20px 0 0;
+}
+
+.choosing ul li {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 18px;
+}
+
+.choosing ul li h4 {
+	font-size: 15px;
+	color: #6db017;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+
+.choosing ul li p {
+	font-size: 15px;
+	color: #686868;
+}
+
+.choosing img {
+	margin: 9px 0 0;
+}
+
+.footer_last {
+	text-align: center;
+	background: #053d92;
+	padding: 40px 0 20px;
+	color: #f0f0f0;
+	font-size: 15px;
+}
+
+.footer_last p span {
+	font-weight: 800;
+	font-size: 16px;
+}

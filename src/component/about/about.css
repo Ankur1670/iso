@@ -1,0 +1,35 @@
+.ptb-100{
+    padding: 75px 0;
+
+}
+img{
+    margin-top: 44px;
+    height: 300px;
+    width: 300px;
+}
+h2{
+    margin: 0 0 1rem;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+line-height: 1.21;
+}
+p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.content button{
+    background: #7202bb;
+    border-color: #ffffff;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 9px;
+    width: 150px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    /* box-shadow: 2; */
+
+}
